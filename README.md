@@ -1,6 +1,10 @@
 Code for the EMNLP paper, "The Importance of Joint Multilingual Supervision for Cross-Lingual Entity Linking".
 
-First, preprocess the Wikipedia dump for the languages you care about using the [wikidump_preprocessing](https://github.com/shyamupa/wikidump_preprocessing) code here. These resources will be used for the candidate generation. 
+### Preprocessing Wikipedia for Candidate Generation
+First, preprocess the Wikipedia dump for the languages you care about using the [wikidump_preprocessing](https://github.com/shyamupa/wikidump_preprocessing) code here.  
+
+### Setting up Candidate Generation
+The code for performing candidate generation is available at [wiki_candgen](https://github.com/shyamupa/wiki_candgen). It uses the resources generated using the [wikidump_preprocessing](https://github.com/shyamupa/wikidump_preprocessing) repo. 
 
 TODO: Add code for running the model. 
 
